@@ -1,11 +1,6 @@
-import React, { useState } from "react";
-import { storiesOf } from "@storybook/react";
+import React from "react";
 import { ComponentStory, ComponentMeta } from '@storybook/react';
 import { Button } from "../index";
-
-const buttonAlert = () => {
-  alert('hello')
-};
 
 export default {
   /* 👇 The title prop is optional.
